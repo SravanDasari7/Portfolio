@@ -1,6 +1,9 @@
 *{
      background-color: #222;
      color: #a8a3a3;
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .name{
     font-size: 1rem;
@@ -9,3 +12,15 @@
     filter: drop-shadow(2px 4px 10px rgb(227, 227, 140));
     color: yellow;
 }
+    .banner{
+        background-image: url("https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSzRQqMaM5IXcrgrT64Qtp3AZmvJU3mEwpA3Kiegs_qP3hMdpLLRnSZ9mVlvg8R9nO4SikNpRCvjI1gv1dsY2U7PJ75G0-WjI3Kv.jpg?r=a5a&quot");
+        background-size: cover;
+        background-position: center center;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        height: 500px;
+ }
+    .posters{
+        display: flex ;
+        overflow: auto;
+    }
